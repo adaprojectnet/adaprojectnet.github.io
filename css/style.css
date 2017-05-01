@@ -214,11 +214,17 @@ html,body,h1,h2,h3,h4,h5,h6 {
 
 /*Columns*/
 
+#columns-3 {
+    
+	}
+
 #columns-4 {
-    -webkit-columns: 140px 4; /* Chrome, Safari, Opera */
-    -moz-columns: 140px 4; /* Firefox */
-    columns: 140px 4;
-	list-style-position: inside;
+    
+	}
+
+.sameline {
+	display: inline-block;
+	padding: 10px;
 }
 
 /*Homepage Image*/
@@ -236,7 +242,7 @@ html,body,h1,h2,h3,h4,h5,h6 {
 	margin-right: 10px;
 	}
 
-@media screen and (max-width: 432px) {
+@media screen and (max-width: 100px) {
     div span:last-of-type {
         display: block;
         }
