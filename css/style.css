@@ -215,9 +215,9 @@ html,body,h1,h2,h3,h4,h5,h6 {
 /*Columns*/
 
 #columns-4 {
-    -webkit-columns: 150px 4; /* Chrome, Safari, Opera */
-    -moz-columns: 150px 4; /* Firefox */
-    columns: 150px 4;
+    -webkit-columns: 140px 4; /* Chrome, Safari, Opera */
+    -moz-columns: 140px 4; /* Firefox */
+    columns: 140px 4;
 	list-style-position: inside;
 }
 
