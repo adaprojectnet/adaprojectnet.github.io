@@ -1,103 +1,100 @@
-<!DOCTYPE html>
-<html>
 <title>ADA Project</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="css/style.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<script type="text/x-mathjax-config">MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});</script>
-<script type="text/javascript" async src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_CHTML"></script>
+<meta charset='UTF-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'>
+<link rel='stylesheet' href='css/style.css'>
+<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
+<script type='text/x-mathjax-config'>MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});</script>
+<script type='text/javascript' async src='https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_CHTML'></script>
 <body>
 	<!-- Navbar -->
-	<div class="w3-top">
-		<div class="w3-bar w3-theme w3-top w3-left-align w3-large">
-    		<a class="w3-bar-item w3-button w3-right w3-hide-large w3-hover-white w3-large w3-theme-l1" href="javascript:void(0)" onClick="w3_open()"><i class="fa fa-bars"></i></a>
-    		<a href="index.html" class="logo w3-button w3-theme-l1 w3-hover-white"><img class="logo" src="images/ada-project-long-black.png"><img class="logo" src="images/ada-project-long.png"></a>
-			<a href="contact.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Contact</a>
-			<a href="news.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white">News</a>
-			<a href="faq.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white">FAQ</a>
-			<a href="about.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white">About</a>
+	<div class='w3-top'>
+		<div class='w3-bar w3-theme w3-top w3-left-align w3-large'>
+    		<a class='w3-bar-item w3-button w3-right w3-hide-large w3-hover-white w3-large w3-theme-l1' href='javascript:void(0)' onClick='w3_open()'><i class='fa fa-bars'></i></a>
+    		<a href='index.html' class='logo w3-button w3-theme-l1 w3-hover-white'><img class='logo' src='images/ada-project-long-black.png'><img class='logo' src='images/ada-project-long.png'></a>
+			<a href='contact.html' class='w3-bar-item w3-button w3-hide-small w3-hover-white'>Contact</a>
+			<a href='submit.html' class='w3-bar-item w3-button w3-hide-small w3-hover-white'>Submit</a>
+			<a href='faq.html' class='w3-bar-item w3-button w3-hide-small w3-hover-white'>FAQ</a>
+			<a href='about.html' class='w3-bar-item w3-button w3-hide-small w3-hover-white'>About</a>
 		</div>
 	</div>
 	<!-- End Navbar -->
 	<!-- Sidebar -->
-	<nav class="w3-sidebar w3-bar-block w3-collapse w3-large w3-theme-l5 w3-animate-left" style="z-index:3;width:250px;margin-top:43px;" id="mySidebar">
-  		<a href="javascript:void(0)" onClick="w3_close()" class="w3-right w3-xlarge w3-padding-large w3-hover-black w3-hide-large" title="Close Menu">
-    		<i class="fa fa-remove" style="font-size:24px;color:black"></i>
+	<nav class='w3-sidebar w3-bar-block w3-collapse w3-large w3-theme-l5 w3-animate-left' style='z-index:3;width:250px;margin-top:43px;' id='mySidebar'>
+  		<a href='javascript:void(0)' onClick='w3_close()' class='w3-right w3-xlarge w3-padding-large w3-hover-black w3-hide-large' title='Close Menu'>
+    		<i class='fa fa-remove' style='font-size:24px;color:black'></i>
   		</a>
-  		<a class="w3-bar-item w3-button w3-hover-black" href="#">Number</a>
-  		<a class="w3-bar-item w3-button w3-hover-black" href="fractions.html">Fractions</a>
-  		<a class="w3-bar-item w3-button w3-hover-black" href="#">Decimals</a>
-  		<a class="w3-bar-item w3-button w3-hover-black" href="#">Percentages</a>
-  		<a class="w3-bar-item w3-button w3-hover-black" href="#">Algebra</a>
-  		<a class="w3-bar-item w3-button w3-hover-black" href="#">Geometry</a>
-  		<a class="w3-bar-item w3-button w3-hover-black" href="#">Calculus</a>
+  		<a class='w3-bar-item w3-button w3-hover-black' href='number.html'>Number</a>
+  		<a class='w3-bar-item w3-button w3-hover-black' href='fractions.html'>Fractions</a>
+  		<a class='w3-bar-item w3-button w3-hover-black' href='#'>Decimals</a>
+  		<a class='w3-bar-item w3-button w3-hover-black' href='#'>Percentages</a>
+  		<a class='w3-bar-item w3-button w3-hover-black' href='#'>Algebra</a>
+  		<a class='w3-bar-item w3-button w3-hover-black' href='#'>Geometry</a>
+  		<a class='w3-bar-item w3-button w3-hover-black' href='#'>Calculus</a>
 	</nav>
 	<!-- End Sidebar -->
 	<!-- Overlay effect when opening sidebar on small screens -->
-	<div class="w3-overlay w3-hide-large" onClick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+	<div class='w3-overlay w3-hide-large' onClick='w3_close()' style='cursor:pointer' title='close side menu' id='myOverlay'></div>
 	<!-- Main content: shift it to the right by 250 pixels when the sidebar is visible -->
-	<div class="w3-main" style="margin-left:250px">
+	<div class='w3-main' style='margin-left:250px'>
 	<!--Main Content-->
-  	<div class="w3-row w3-padding-64">
-    	<div class="w3-container">
-			<div style="max-width:600px; margin:0 auto;">
-              <center><img src="images/ada-project-long.png" id="home"></center>
+  	<div class='w3-row w3-padding-64'>
+    	<div class='w3-container'>
+			<div style='max-width:600px; margin:0 auto;'>
+              <center><img src='images/ada-project-long.png' id='home'></center>
 	  		</div>
           		<center><h2><br><br>Every Question. Every Answer.<br><br></h2></center>
-    		<div class="w3-row">
-    			<div class="w3-container">
-     		      <center><h4>The ADA Project is an open textbook with user submitted questions and answers.<br><br>On each question there is an <b>answer</b>, <b>solution</b>, <b>video</b> and <b>discussion</b>.<br><br>Start by selecting your topic on the menu.</h4></center>
+    		<div class='w3-row'>
+    			<div class='w3-container'>
+     		      <center><h4>The ADA Project is an open textbook with user submitted questions and answers.<br><br>On each question there is an <b>answer</b>, <b>solution</b>, <b>video</b> and <b>discussion</b>.<br><br>Start by selecting your topic.</h4></center>
 			    </div>
     		</div>
 
-		</div>
+		 </div>
 	</div>
 	<!--End Main Content-->
 	<!--Footer-->
 	<footer>
-    	<div class="w3-container w3-theme-l2 social-icons">
+    	<div class='w3-container w3-theme-l2 social-icons'>
        		<ul>
-				<li class="twitter" style="background-color: #f0f0f0">
-					<a href="https://twitter.com/adaprojectnet" target="_blank">Twitter</a>
+				<li class='twitter' style='background-color: #f0f0f0'>
+					<a href='https://twitter.com/adaprojectnet' target='_blank'>Twitter</a>
 				</li>
-				<li class="facebook" style="background-color: #f0f0f0">
-					<a href="https://www.facebook.com/Ada-Pro-400723376978661/" target="_blank">Facebook</a>
+				<li class='facebook' style='background-color: #f0f0f0'>
+					<a href='https://www.facebook.com/Ada-Pro-400723376978661/' target='_blank'>Facebook</a>
 				</li>
-				<li class="youtube" style="background-color: #f0f0f0">
-					<a href="https://www.youtube.com/channel/UCELJpb44kPwRchpkWUrEKMQ" target="_blank">YouTube</a>
+				<li class='youtube' style='background-color: #f0f0f0'>
+					<a href='https://www.youtube.com/channel/UCELJpb44kPwRchpkWUrEKMQ' target='_blank'>YouTube</a>
 				</li>
-				<li class="googleplus" style="background-color: #f0f0f0">
-					<a href="https://plus.google.com/u/1/109060038586159024243" target="_blank">Google +</a>
+				<li class='googleplus' style='background-color: #f0f0f0'>
+					<a href='https://plus.google.com/u/1/109060038586159024243' target='_blank'>Google +</a>
 				</li>
-				<li class="pinterest" style="background-color: #f0f0f0">
-					<a href="https://au.pinterest.com/adaproject/" target="_blank">Pinterest</a>
+				<li class='pinterest' style='background-color: #f0f0f0'>
+					<a href='https://au.pinterest.com/adaproject/' target='_blank'>Pinterest</a>
 				</li>
-				<li class="linkedin" style="background-color: #f0f0f0">
-					<a href="https://www.linkedin.com/in/ada-project-a09328141/" target="_blank">LinkedIN</a>
+				<li class='linkedin' style='background-color: #f0f0f0'>
+					<a href='https://www.linkedin.com/in/ada-project-a09328141/' target='_blank'>LinkedIN</a>
 				</li>
 			</ul>
     	</div>
-	    <div class="w3-container w3-theme-l1 bottom-footer">
+	    <div class='w3-container w3-theme-l1 bottom-footer'>
 			<p>
 				<span>&copy ADA Project 2017</span>
-				<span><a href="contact.html">Contact</a>
-				<a href="news.html">News</a>
-				<a href="faq.html">FAQ</a>
-				<a href="about.html">About</a>
-				<a href="index.html">Home</a></span>
+				<span><a href='contact.html'>Contact</a>
+				<a href='submit.html'>Submit</a>
+				<a href='faq.html'>FAQ</a>
+				<a href='about.html'>About</a>
+				<a href='index.html'>Home</a></span>
 			</p>
     	</div>
   	</footer>
   	<!--End Footer-->
 	</div>
 </body>
-<script type="text/javascript" src="js/sidebar.js"></script>
-<script type="text/javascript" src="js/jquery-1.12.1.min.js"></script>
-<script type="text/javascript" src="js/javascript.js"></script>
-<script src="js/jBox.js"></script>
-<script src="js/jBox.min.js"></script>
-<link href="css/jBox.css" rel="stylesheet">
-<script type="text/javascript" language="javascript" id="hcb" src="js/htmlcommentbox.js"></script>
-</html>
+<script type='text/javascript' src='js/sidebar.js'></script>
+<script type='text/javascript' src='js/jquery-1.12.1.min.js'></script>
+<script type='text/javascript' src='js/javascript.js'></script>
+<script src='js/jBox.js'></script>
+<script src='js/jBox.min.js'></script>
+<link href='css/jBox.css' rel='stylesheet'>
+<script type='text/javascript' language='javascript' id='hcb' src='js/htmlcommentbox.js'></script>
